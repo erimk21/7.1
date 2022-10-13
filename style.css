@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+nav{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  background-color: red ;
+  }
+  ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  li {
+      justify-content: space-between;
+      list-style-type: none;
+  }
+  .hb {
+      margin-left: 85.5rem;
+      align-items: flex-end;
+      display: none;
+  }
+  section{
+  height: 15rem;
+  width: 100%;
+  }
+  .title1{
+  background-color: rgb(68, 68, 20);
+  }
+  .title2{
+  background-color: rgb(114, 74, 0);
+  }
+  .title3{
+  background-color: rgb(0, 243, 0);
+  }
+  
+  @media only screen and (min-width:768px) and (max-width: 1023px) {
+  
+  nav{
+  display: flex;
+  background-color: rgb(86, 25, 86);
+  padding: 15px;
+  }
+  
+  .title1{
+  background-color: rgb(157, 70, 70);
+  }
+  
+  .title2{
+  background-color: rgb(129, 93, 45);
+  }
+  
+  .title3{
+  background-color: rgb(108, 108, 245);
+  }
+  
+  section{
+  height: 8rem;
+  padding: 15px;
+  }
+  
+  h1{
+  color: white;
+  }
+  
+  p{
+  display: flex;
+  color: white;
+  }
+  
+  }@media only screen and (min-width:0) and (max-width: 767px) {
+  
+  nav{
+  display: flex;
+  background-color: lightblue;
+  padding: 15px;
+  }
+  .title1{
+  background-color: rgb(8, 88, 8);
+  }
+  .title2{
+  background-color: rgb(181, 142, 69);
+  }
+  .title3{
+  background-color: purple;
+  }
+  section{
+  height: 8rem;
+  padding: 15px;
+  }
+  
+  h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  }
+  
+  p{
+  display: flex;
+  color: white;
+  justify-content: center;
+  }
+  .hb {
+      display: flex;
+  }
+  }
